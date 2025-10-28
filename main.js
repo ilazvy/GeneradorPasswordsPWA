@@ -43,13 +43,13 @@ document.getElementById('generate').addEventListener('click', () => {
 document.getElementById('copy').addEventListener('click', async () => {
   const val = document.getElementById('password').value;
   if (!val) {
-    alert('Genera primero una contraseña');
+    alert('First generate a password to copy');
     return;
   }
   try {
     await navigator.clipboard.writeText(val);
-    alert('Contraseña copiada al portapapeles');
+    alert('Password copied to clipboard');
   } catch (e) {
-    alert('No fue posible copiar: ' + e);
+    alert('Could not copy: ' + e);
   }
 });

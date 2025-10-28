@@ -1,5 +1,5 @@
 {
-  "name": "Generador de contraseñas PWA",
+  "name": "PWA Password Generator",
   "short_name": "GenPwd",
   "start_url": "/index.html",
   "display": "standalone",

@@ -7,28 +7,29 @@
   <meta name="theme-color" content="#ff3b3b">
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
-  <title>Generador de contraseñas</title>
+  <title>Password generator</title>
 </head>
 <body>
   <main class="wrap">
-    <h1>Generador de contraseñas</h1>
+    <h1>Password generator</h1>
     <div class="controls">
-      <label>Longitud: <input id="length" type="number" min="4" max="64" value="12"></label>
-      <label><input id="upper" type="checkbox" checked>Mayúsculas</label>
-      <label><input id="lower" type="checkbox" checked>Minúsculas</label>
-      <label><input id="numbers" type="checkbox" checked>Números</label>
-      <label><input id="symbols" type="checkbox" checked>Símbolos</label>
+      <label>Length: <input id="length" type="number" min="4" max="64" value="12"></label>
+      <label><input id="upper" type="checkbox" checked>Uppercase</label>
+      <label><input id="lower" type="checkbox" checked>Lowercase</label>
+      <label><input id="numbers" type="checkbox" checked>Numbers</label>
+      <label><input id="symbols" type="checkbox" checked>Symbols</label>
     </div>
-    <button id="generate">Generar contraseña</button>
+    <button id="generate">Generate password</button>
     <div class="output">
-      <input id="password" readonly placeholder="Aquí aparecerá la contraseña">
-      <button id="copy">Copiar</button>
+      <input id="password" readonly placeholder="Here the password will appear ">
+      <button id="copy">Copy</button>
     </div>
     <p class="note">
-      Puedes instalar la app desde el menú del navegador (Chrome -> Instalar) para probarlo en modo app/offline. :)
+      You can install the app from the browser menu (Chrome -> Install) to test it in app/offline mode. :)
     </p>
-        <p class="note2">
-     </p>
+    <p class="note2">
+      - Random password generator made with vanilla JS.<br>
+    </p>
   </main>
 
   <script src="main.js"></script>

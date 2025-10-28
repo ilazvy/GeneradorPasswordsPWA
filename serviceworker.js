@@ -1,4 +1,4 @@
-const CACHE = 'mi-pwa-v2';
+const CACHE = 'pwa-password-generator-v1';
 const URLS = ['/', '/index.html', '/main.js', '/style.css', '/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png'];
 
 self.addEventListener('install', event => {
